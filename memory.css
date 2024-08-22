@@ -1,0 +1,101 @@
+h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-color: darkseagreen;
+color: darkgoldenrod;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline-color: black;
+    color: red;
+}
+    .game-board
+    { 
+        display: grid;
+        grid-template-columns: 120px 120px 120px;
+        grid-template-rows: 120px 120px 120px 20px;
+        justify-content:center;
+        border-color: black;
+       }
+       .box {
+        background-color: #fffbfb;;
+        border: 2px solid black;
+       }
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(animated-brain-clipart.jpg);
+    background-size: 120px;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    color: rgb(8, 8, 8);
+  }
+  .card {
+    height: calc(140px / 2 * 3);
+    width: 140px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+  }
+  /* styles.css */
+  .grid-container {
+    display: grid;
+    justify-content: center;
+    grid-gap: 16px;
+    grid-template-columns: repeat(6, 140px);
+    grid-template-rows: repeat(2, calc(140px / 2 * 3));
+  }
+
+
+.grid-item {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    background-size: cover; /* Ensure the image covers the entire grid item */
+    background-position: center; /* Center the image */
+}
+.grid-item[data-image="image1"] {
+    background-image: url('halloween\ owl-pumpkin.jpg');
+}
+
+.grid-item[data-image="image2"]{
+    background-image: url('candy\ corn\ clip\ art.jpg');
+}
+
+    .grid-item[data-image="image3"]{
+        background-image: url('zombie\ halloween.jpg');
+    }
+    
+    .grid-item[data-image="image4"]{
+        background-image: url('ghost\ halloween.jpg');
+}
+.grid-item[data-image="image5"]{
+    background-image: url('halloween\ owl-pumpkin.jpg');
+}
+
+.grid-item[data-image="image6"]{
+    background-image: url('candy\ corn\ clip\ art.jpg');
+}
+
+    .grid-item[data-image="image7"]{
+        background-image: url('zombie\ halloween.jpg');
+    }
+    
+    .grid-item[data-image="image8"]{
+        background-image: url('ghost\ halloween.jpg');
+}
+.grid-item[data-image="image9"]{
+    background-image: url('halloween\ owl-pumpkin.jpg');
+}
+
+.grid-item[data-image="image10"]{
+    background-image: url('candy\ corn\ clip\ art.jpg');
+}
+
+    .grid-item[data-image="image11"]{
+        background-image: url('zombie\ halloween.jpg');
+    }
+    
+    .grid-item[data-image="image12"]{
+        background-image: url('ghost\ halloween.jpg');
+}
